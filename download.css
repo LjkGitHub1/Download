@@ -1,0 +1,141 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    border: 0;
+    background-color: #2d3a4b;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #20a0ff;
+}
+hr{
+    height: 1px;
+    border: none;
+    color: yellow;
+}
+.header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border-bottom: solid 1px #918b90;
+}
+.header a{
+    text-decoration: none;
+    color: rgba(240, 236, 240, 0.801);
+}
+.header-left{
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+.header-left .logo{
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    width: 60%;
+    height: 100%;
+}
+.header-right ul{
+    display: flex;
+}
+.header-right ul li{
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    justify-content: flex-start;
+    list-style: none;
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    border-bottom: solid 1px #918b8b;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.intro .item{
+    width: 400px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center; 
+}
+.intro .item ul{
+    display: flex;
+}
+.intro .item .item-1 li{
+    text-align: center;
+    position: relative;
+    line-height: 100px;
+}
+.intro .item ul li img{
+    position: absolute;
+    top: 36px;
+    right: -106px;
+}
+.intro .item span{
+    position: absolute;
+    font-size: 7px;
+    right: 80px;
+    top: 40px;
+}
+.intro .item-btn{
+    text-align: center;
+    background-color: #2d3a4b;
+}
+.intro .item-download ul li a{
+    background-color: rgb(29, 29, 49);
+}
+.Card{
+    display: flex;
+    border-bottom: solid 1px #918b8b;
+}
+.Card .card{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(109, 101, 101);
+
+}
+.Card .card img:hover {
+    -webkit-transform: scale(1.15);
+	transform: scale(1.15);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	border-radius: 50%;
+}
+.pictures{
+    width: 50%;
+    height: 100%;
+}
+.slogan {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 45px;
+    border-bottom: solid 1px #918b8b;
+    color: rgb(160, 183, 184);
+}
+.slogan p{
+    line-height: 300px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #918b8b;
+    font-size: 15px;
+    background-color: rgb(17, 17, 17);
+}
+.footer span{
+    margin-right: 70px;
+}
